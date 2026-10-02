@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.todo-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+}
+
+#addButton {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#taskList {
+  padding: 0;
+  list-style: none;
+}
