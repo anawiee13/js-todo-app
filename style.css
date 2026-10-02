@@ -19,6 +19,10 @@ body {
 h1 {
   text-align: center;
 }
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
 
 .input-container {
   display: flex;
